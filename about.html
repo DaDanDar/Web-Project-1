@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Paper Website: About</title>
+    <meta charset="utf-8" />
+    <title>Paper Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="/images-and-media/favicon.ico" />
+  </head>
+
+  <body>
+    <header><!-- header section & links to other webpages-->
+        <h1>About</h1>
+        <nav>
+          <a href="index.html"><u>Home</u></a>
+        </nav>
+    </header>
+
+    <main>
+      <section>
+        <p><strong>Why did I make a website dedicated to paper?</strong></p>
+        <p><strong>I guess I just really like paper.</strong></p>
+      </section>
+
+      <!-- form asking how much you love paper -->
+      <section class="paper-form">
+        <h2>How much do you love paper?</h2>
+        <form name="paper-form" method="get">
+          
+          <!-- name input -->
+          <label for="name"><strong>Your Name:</strong></label><br>
+          <input type="text" id="name" name="name" required><br><br>
+
+          <!-- range input with labels for 0 and 10 -->
+          <label for="love-level"><strong>On a scale of 0 to 10, how much do you love paper?</strong></label><br>
+          <div>
+            <span><strong>0</strong></span>
+            <input type="range" id="love-level" name="love-level" min="0" max="10" required>
+            <span><strong>10</strong></span>
+          </div><br><br>
+
+          <!-- radio buttons for paper usage -->
+          <fieldset>
+            <legend><strong>What do you use paper for?</strong></legend>
+
+            <input type="radio" id="writing" name="paper-use" value="writing" required>
+            <label for="writing">Writing</label><br>
+            <input type="radio" id="drawing" name="paper-use" value="drawing">
+            <label for="drawing">Drawing</label><br>
+            <input type="radio" id="crafting" name="paper-use" value="crafting">
+            <label for="crafting">Crafting</label><br><br>
+          </fieldset>
+          
+
+          <!-- textarea for optional comments -->
+          <label for="comments">Why do you love paper? (Optional)</label><br>
+          <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br/><br/>
+
+          <!-- checkbox to subscribe -->
+          <input type="checkbox" id="ate-paper" name="ate-paper">
+          <label for="ate-paper">Click here if you have eaten paper before.</label><br><br>
+
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+    </main>
+
+    <footer><!-- footer -->
+        <p>Est 2024, The Paper Website.</p>
+    </footer>
+  </body>
+</html>
