@@ -1,6 +1,14 @@
+<!--
+Name: Daniel Li
+Course: Web Development 20S
+Teacher: Ms. Hoitink
+School: Pembina Trails Collegiate (PTC)
+Date Last Modified: September 26th, 2024
+-->
 <!DOCTYPE html>
 <html lang="en-us">
-<head><!-- meta tags, favicon, and link to the css file -->
+<head>
+    <!-- meta tags, favicon, and link to the css file -->
     <meta charset="utf-8">
     <title>Paper Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,15 +17,18 @@
 </head>
 
 <body>
-    <header><!-- the header at the beginning of the page -->
+    <!-- header containing website title and navigation link -->
+    <header>
         <h1>Papers</h1>
         <nav>
             <a href="about.html"><u>About</u></a>
         </nav>
     </header>
 
+    <!-- main content area -->
     <main>
-        <article><!-- intro regarding why paper is cool -->
+        <!-- article introducing paper and its significance -->
+        <article>
             <h2>So, Why Papers?</h2>
             <p>
                 <strong>
@@ -26,37 +37,42 @@
                     From printed copies to digital formats, papers have had a crucial impact on learning and communication.
                 </strong>
             </p>
-            <div class="container"><!-- reasons why i like paper -->
+            <!-- section listing reasons for liking paper -->
+            <section class="container">
                 <h2><strong>Here Are Three Reasons Why I Love Papers:</strong></h2>
                 <ul class="centered-list">
-                    <strong>
-                        <li>Communication: Paper helps people share ideas clearly.</li>
-                        <li>Mass Accessibility: Printed paper makes knowledge available to many people.</li>
-                        <li>Versatility: Paper can be shared in print or online.</li>
-                    </strong>
+                    <li><strong>Communication:</strong> Paper helps people share ideas clearly.</li>
+                    <li><strong>Mass Accessibility:</strong> Printed paper makes knowledge available to many people.</li>
+                    <li><strong>Versatility:</strong> Paper can be shared in print or online.</li>
                 </ul>
-            </div>
+            </section>
         </article>
 
-        <article><!-- iframe video about the history of paper -->
-            <h2>Video About The History of Papers</h2>
+        <!-- article containing an embedded video about the history of paper -->
+        <article>
+            <h2>Watch This Video For The History of Paper</h2>
             <figure>
+                <!-- iframe for embedding YouTube video -->
                 <iframe 
-                    width="560" height="315" src="https://www.youtube.com/embed/eKJjbJxk1yU?si=9NdNSzQ00OJmrmao"
+                    width="560" height="315" 
+                    src="https://www.youtube.com/embed/eKJjbJxk1yU?si=9NdNSzQ00OJmrmao" 
                     title="YouTube video player" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     referrerpolicy="strict-origin-when-cross-origin" 
-                    allowfullscreen
-                    title="Video about the history of papers by 'The History Guy: History Deserves To Be Remembered.'">
+                    allowfullscreen>
                 </iframe>
+                <!-- caption describing the video -->
+                <figcaption><strong>An informative video about the history of paper by "The History Guy"</strong></figcaption>
             </figure>
         </article>
 
-        <article><!-- table about paper products -->
+        <!-- article presenting a table about types of paper products -->
+        <article>
             <h2>Types of Paper Products</h2>
             <table>
                 <thead>
+                    <!-- table headers defining product categories -->
                     <tr>
                         <th>Product</th>
                         <th>Uses</th>
@@ -64,6 +80,7 @@
                     </tr>
                 </thead>
                 <tbody>
+                    <!-- table rows displaying paper products, their uses, and materials -->
                     <tr>
                         <td>Notebook</td>
                         <td>Writing notes</td>
@@ -83,37 +100,52 @@
             </table>
         </article>
 
+        <!-- figure displaying images of paper products -->
         <figure class="paper-products">
-            <!-- images of paper products -->
+            <!-- div containing images of different paper products -->
             <div class="images">
                 <img src="images-and-media/paper-notebook.jpg" alt="image of paper notebook"/>
                 <img src="images-and-media/printer-paper.jpg" alt="image of a stack of printer paper"/>
                 <img src="images-and-media/cardstock-paper.jpg" alt="image of a pile of colorful cardstock paper"/>
             </div>
-        
-            <div class="sources"><!-- sources for images and video -->
+            <!-- caption describing the displayed paper products -->
+            <figcaption><strong>Various types of paper products: notebook, printer paper, and cardstock.</strong></figcaption>
+            <!-- horizontal line separator -->
+            <hr>
+            <!-- section listing sources for the images and video -->
+            <section class="sources">
                 <p>Image 1 taken from: 
-                    <a href="https://www.istockphoto.com/photo/notebook-and-pencil-gm504311964-83071733" target="_blank">https://www.istockphoto.com/photo/notebook-and-pencil-gm504311964-83071733</a>
+                    <a href="https://www.istockphoto.com/photo/notebook-and-pencil-gm504311964-83071733" target="_blank">
+                        https://www.istockphoto.com/photo/notebook-and-pencil-gm504311964-83071733
+                    </a>
                 </p>
                 <p>Image 2 taken from:
                     <a href="https://www.istockphoto.com/photo/paper-stack-in-front-of-worker-in-the-typography-gm951828188-259834255" target="_blank">
-                    https://www.istockphoto.com/photo/paper-stack-in-front-of-worker-in-the-typography-gm951828188-259834255</a>
+                        https://www.istockphoto.com/photo/paper-stack-in-front-of-worker-in-the-typography-gm951828188-259834255
+                    </a>
                 </p>
                 <p>Image 3 taken from: 
-                    <a href="https://www.istockphoto.com/photo/cardstock-paper-gm825372268-133861087" target="_blank">https://www.istockphoto.com/photo/cardstock-paper-gm825372268-133861087</a>
+                    <a href="https://www.istockphoto.com/photo/cardstock-paper-gm825372268-133861087" target="_blank">
+                        https://www.istockphoto.com/photo/cardstock-paper-gm825372268-133861087
+                    </a>
                 </p>
                 <p>Background image taken from:
-                    <a href="https://www.freecreatives.com/backgrounds/white-paper-texture.html" target="_blank">https://www.freecreatives.com/backgrounds/white-paper-texture.html</a>
+                    <a href="https://www.freecreatives.com/backgrounds/white-paper-texture.html" target="_blank">
+                        https://www.freecreatives.com/backgrounds/white-paper-texture.html
+                    </a>
                 </p>
                 <p>Video link:
-                    <a href="https://www.youtube.com/watch?v=eKJjbJxk1yU&t=13s" target="_blank">https://www.youtube.com/watch?v=eKJjbJxk1yU&t=13s</a>
+                    <a href="https://www.youtube.com/watch?v=eKJjbJxk1yU&t=13s" target="_blank">
+                        https://www.youtube.com/watch?v=eKJjbJxk1yU&t=13s
+                    </a>
                 </p>
-            </div>
+            </section>
         </figure>
-        
+
     </main>
 
-    <footer><!-- the footer bar at the bottom of the page -->
+    <!-- sticky footer at the bottom of the page -->
+    <footer>
         <p>Est 2024, The Paper Website.</p>
     </footer>
 </body>
